@@ -1,0 +1,46 @@
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --Transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+  --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.sadbut {
+  color: hsl(31, 77%, 52%);
+}
+
+.suvbut {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxbut {
+  color: hsl(179, 100%, 13%);
+}
+
+.cars {
+  /* width: 300px; */
+  height: 400px;
+  color: var(--Very-light-gray);
+  margin: 0px 60px;
+}
+
+@media (width>375px) {
+  body {
+    width: 1440px;
+    /* height: 800px; */
+    margin: 0px 80px;
+  }
+}
